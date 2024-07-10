@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bee with you</title>
-    <link>http://xxx.xxx/</link>
+    <link>https://bee-with-you.github.io/</link>
     <description>Recent content on Bee with you</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://xxx.xxx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bee-with-you.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
