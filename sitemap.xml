@@ -13,7 +13,17 @@
   </url>
   
   <url>
-    <loc>https://bee-with-you.github.io/posts/first-post/</loc>
+    <loc>https://bee-with-you.github.io/categories/</loc>
+    <lastmod>2024-07-10T14:48:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bee-with-you.github.io/tags/introduction/</loc>
+    <lastmod>2024-07-10T14:48:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bee-with-you.github.io/categories/introduction/</loc>
     <lastmod>2024-07-10T14:48:19-07:00</lastmod>
   </url>
   
@@ -23,15 +33,22 @@
   </url>
   
   <url>
-    <loc>https://bee-with-you.github.io/categories/</loc>
+    <loc>https://bee-with-you.github.io/tags/resources/</loc>
+    <lastmod>2024-07-10T14:48:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bee-with-you.github.io/series/</loc>
+    <loc>https://bee-with-you.github.io/posts/first-post/</loc>
+    <lastmod>2024-07-10T14:48:19-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://bee-with-you.github.io/tags/</loc>
+    <lastmod>2024-07-10T14:48:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bee-with-you.github.io/series/</loc>
   </url>
   
 </urlset>
