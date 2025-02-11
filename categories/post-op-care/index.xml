@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bee With You</title>
-    <link>https://bee-with-you.github.io/</link>
-    <description>Recent content on Bee With You</description>
+    <title>Post Op Care on Bee With You</title>
+    <link>https://bee-with-you.github.io/categories/post-op-care/</link>
+    <description>Recent content in Post Op Care on Bee With You</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Feb 2025 14:40:19 -0700</lastBuildDate>
     
-	<atom:link href="https://bee-with-you.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bee-with-you.github.io/categories/post-op-care/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://bee-with-you.github.io/posts/postop-care-scars/</guid>
       <description>Many parents worry about scarring after surgery.</description>
-    </item>
-    
-    <item>
-      <title>Resources on hypospadias</title>
-      <link>https://bee-with-you.github.io/posts/resources/</link>
-      <pubDate>Sun, 28 Jul 2024 14:48:19 -0700</pubDate>
-      
-      <guid>https://bee-with-you.github.io/posts/resources/</guid>
-      <description>This post collects the resources and support that are related to hypospadias.</description>
     </item>
     
   </channel>
