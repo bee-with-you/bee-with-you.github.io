@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Bee With You</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 14:40:19 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 14:40:19 -0700</lastBuildDate>
     
 	<atom:link href="https://bee-with-you.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pre-surgery</title>
+      <link>https://bee-with-you.github.io/categories/pre-surgery/</link>
+      <pubDate>Sat, 15 Mar 2025 14:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/categories/pre-surgery/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Post Op Care</title>
