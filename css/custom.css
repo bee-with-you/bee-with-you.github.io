@@ -1,0 +1,13 @@
+.blur-until-hover {
+  filter: blur(14px);
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+/* Clear and zoom on hover (only on devices that support hover) */
+@media (hover: hover) and (pointer: fine) {
+  .blur-until-hover:hover {
+    filter: blur(0);
+    transform: scale(1.05);
+  }
+}
+
