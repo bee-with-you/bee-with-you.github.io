@@ -1,15 +1,18 @@
-.blur-until-hover {
-  filter: blur(14px);
-  transition: filter 0.4s ease, transform 0.4s ease;
+/* Apply blur by default and smooth transitions */
+
+img.blur-until-hover,
+img.blur-until-hover.lazyloaded {
+  filter: blur(14px) !important;
+  transition: filter 0.4s ease, transform 0.4s ease !important;
 }
 
-/* Clear and zoom on hover (only on devices that support hover) */
-@media (hover: hover) and (pointer: fine) {
-  .blur-until-hover:hover {
-    filter: blur(0);
-    transform: scale(1.05);
-  }
+img.blur-until-hover:hover,
+img.blur-until-hover.lazyloaded:hover {
+  filter: blur(0) !important;
+  transform: scale(1.05) !important;
 }
+
+
 
 
 /* custom css to show two images side by side on PC, 
@@ -34,7 +37,7 @@ and stack vertically on mobile/tablets */
 .image-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* ✅ Crops to fill container */
+  object-fit: cover; /* Crops to fill container */
   display: block;
 }
 
