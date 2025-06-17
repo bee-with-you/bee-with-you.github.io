@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post Op Care on Bee With You</title>
+    <title>Post-Op Care on Bee With You</title>
     <link>https://bee-with-you.github.io/categories/post-op-care/</link>
-    <description>Recent content in Post Op Care on Bee With You</description>
+    <description>Recent content in Post-Op Care on Bee With You</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 14:40:19 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 05:40:19 -0700</lastBuildDate>
     
 	<atom:link href="https://bee-with-you.github.io/categories/post-op-care/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stage 3 Hypospadias Repair - Post-Op Recovery Log</title>
+      <link>https://bee-with-you.github.io/posts/postop-care-stage-three-experience/</link>
+      <pubDate>Tue, 17 Jun 2025 05:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/posts/postop-care-stage-three-experience/</guid>
+      <description>⚠️ This log is a personal documentation and not medical advice.</description>
+    </item>
+    
+    <item>
+      <title>Stage 2 Hypospadias Repair - Post-Op Recovery Log</title>
+      <link>https://bee-with-you.github.io/posts/postop-care-stage-two-experience/</link>
+      <pubDate>Mon, 16 Jun 2025 16:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/posts/postop-care-stage-two-experience/</guid>
+      <description>⚠️ This log is a personal documentation and not medical advice.</description>
+    </item>
+    
+    <item>
+      <title>Stage 1 Hypospadias Repair - Post-Op Recovery Log</title>
+      <link>https://bee-with-you.github.io/posts/postop-care-stage-one-experience/</link>
+      <pubDate>Mon, 16 Jun 2025 14:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/posts/postop-care-stage-one-experience/</guid>
+      <description>⚠️ This log is a personal documentation and not medical advice.</description>
+    </item>
     
     <item>
       <title>Minimizing Scarring After Hypospadias Surgery</title>
