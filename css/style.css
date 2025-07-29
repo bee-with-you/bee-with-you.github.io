@@ -310,7 +310,6 @@ body::-webkit-scrollbar-thumb:hover, .zhuti-r-0::-webkit-scrollbar-thumb:hover {
     flex-direction: column;
 }
 
-
 header {
     width: 100%;
     position: fixed;
@@ -1690,6 +1689,6 @@ body::after {
 }
 @media only screen and (min-width: 1408px) {
     .container {
-        max-width: 1350px;
+        max-width: 1300px;
     }
 }

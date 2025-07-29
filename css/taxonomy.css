@@ -1,7 +1,10 @@
-
 .taxo-body {
     position: relative;
+    padding-top: 80px;
+    min-height: 60vh;
+    box-sizing: border-box;
 }
+
 .taxo-row {
     display: flex;
     justify-content: center;
