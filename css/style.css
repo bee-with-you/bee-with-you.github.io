@@ -1692,3 +1692,10 @@ body::after {
         max-width: 1300px;
     }
 }
+.taxo-list a.taxo-link {
+  color: #222;
+  transition: color 0.2s;
+}
+body.dark-mode .taxo-list a.taxo-link {
+  color: var(--white-s);
+}

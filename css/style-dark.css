@@ -399,6 +399,9 @@ p > code {
     text-shadow: 0px 0px 3px rgba(var(--primary-oppo-rgb), 0.5);
     color: var(--primary-oppo);
 }
+.taxo-list a.taxo-link {
+    color: var(--white-s);
+}
 
 
 /* footer */
