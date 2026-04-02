@@ -4,66 +4,51 @@
     <title>Tags on Bee With You</title>
     <link>https://bee-with-you.github.io/tags/</link>
     <description>Recent content in Tags on Bee With You</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 05:40:19 -0700</lastBuildDate>
-    
-	<atom:link href="https://bee-with-you.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bee-with-you.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Knowledge-Sharing</title>
       <link>https://bee-with-you.github.io/tags/knowledge-sharing/</link>
-      <pubDate>Wed, 15 Oct 2025 05:40:19 -0700</pubDate>
-      
+      <pubDate>Sun, 15 Feb 2026 05:40:19 -0700</pubDate>
       <guid>https://bee-with-you.github.io/tags/knowledge-sharing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Surgery-Preparation</title>
       <link>https://bee-with-you.github.io/tags/surgery-preparation/</link>
       <pubDate>Wed, 20 Aug 2025 05:40:19 -0700</pubDate>
-      
       <guid>https://bee-with-you.github.io/tags/surgery-preparation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Surgery Decision Making</title>
       <link>https://bee-with-you.github.io/tags/surgery-decision-making/</link>
       <pubDate>Tue, 17 Jun 2025 14:40:19 -0700</pubDate>
-      
       <guid>https://bee-with-you.github.io/tags/surgery-decision-making/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Post-Op Care</title>
       <link>https://bee-with-you.github.io/tags/post-op-care/</link>
       <pubDate>Tue, 17 Jun 2025 05:40:19 -0700</pubDate>
-      
       <guid>https://bee-with-you.github.io/tags/post-op-care/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Surgery Complications</title>
       <link>https://bee-with-you.github.io/tags/surgery-complications/</link>
       <pubDate>Mon, 16 Jun 2025 12:36:19 -0700</pubDate>
-      
       <guid>https://bee-with-you.github.io/tags/surgery-complications/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Resources</title>
       <link>https://bee-with-you.github.io/tags/resources/</link>
       <pubDate>Sun, 28 Jul 2024 14:48:19 -0700</pubDate>
-      
       <guid>https://bee-with-you.github.io/tags/resources/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

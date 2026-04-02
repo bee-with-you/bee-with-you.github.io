@@ -4,12 +4,9 @@
     <title>About on Bee With You</title>
     <link>https://bee-with-you.github.io/about/</link>
     <description>Recent content in About on Bee With You</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 14:48:43 -0700</lastBuildDate>
-    
-	<atom:link href="https://bee-with-you.github.io/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://bee-with-you.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
