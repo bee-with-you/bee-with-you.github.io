@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://bee-with-you.github.io/sitemap.xml

@@ -4,44 +4,60 @@
     <title>Categories on Bee With You</title>
     <link>https://bee-with-you.github.io/categories/</link>
     <description>Recent content in Categories on Bee With You</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bee-with-you.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Knowledge-Sharing</title>
-      <link>https://bee-with-you.github.io/categories/knowledge-sharing/</link>
-      <pubDate>Sun, 15 Feb 2026 05:40:19 -0700</pubDate>
-      <guid>https://bee-with-you.github.io/categories/knowledge-sharing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pre-Surgery</title>
-      <link>https://bee-with-you.github.io/categories/pre-surgery/</link>
-      <pubDate>Wed, 20 Aug 2025 05:40:19 -0700</pubDate>
-      <guid>https://bee-with-you.github.io/categories/pre-surgery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Post-Op Care</title>
-      <link>https://bee-with-you.github.io/categories/post-op-care/</link>
-      <pubDate>Tue, 17 Jun 2025 05:40:19 -0700</pubDate>
-      <guid>https://bee-with-you.github.io/categories/post-op-care/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Post-Surgery Complications</title>
-      <link>https://bee-with-you.github.io/categories/post-surgery-complications/</link>
-      <pubDate>Mon, 16 Jun 2025 12:36:19 -0700</pubDate>
-      <guid>https://bee-with-you.github.io/categories/post-surgery-complications/</guid>
-      <description></description>
-    </item>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Bee</copyright>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bee-with-you.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Introduction</title>
       <link>https://bee-with-you.github.io/categories/introduction/</link>
-      <pubDate>Sun, 28 Jul 2024 14:48:19 -0700</pubDate>
+      <pubDate>Sun, 15 Feb 2026 05:40:19 -0700</pubDate>
+      
       <guid>https://bee-with-you.github.io/categories/introduction/</guid>
       <description></description>
+      
     </item>
+    
+    <item>
+      <title>Pre-surgery</title>
+      <link>https://bee-with-you.github.io/categories/pre-surgery/</link>
+      <pubDate>Wed, 20 Aug 2025 05:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/categories/pre-surgery/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Post-op care</title>
+      <link>https://bee-with-you.github.io/categories/post-op-care/</link>
+      <pubDate>Tue, 17 Jun 2025 05:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/categories/post-op-care/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Complications</title>
+      <link>https://bee-with-you.github.io/categories/complications/</link>
+      <pubDate>Mon, 16 Jun 2025 12:36:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/categories/complications/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://bee-with-you.github.io/categories/resources/</link>
+      <pubDate>Sun, 28 Jul 2024 14:48:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/categories/resources/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

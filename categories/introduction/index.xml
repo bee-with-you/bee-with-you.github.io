@@ -4,16 +4,30 @@
     <title>Introduction on Bee With You</title>
     <link>https://bee-with-you.github.io/categories/introduction/</link>
     <description>Recent content in Introduction on Bee With You</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bee-with-you.github.io/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Bee</copyright>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bee-with-you.github.io/categories/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>Hypospadias Resources Collection</title>
-      <link>https://bee-with-you.github.io/posts/resources/</link>
-      <pubDate>Sun, 28 Jul 2024 14:48:19 -0700</pubDate>
-      <guid>https://bee-with-you.github.io/posts/resources/</guid>
+      <title>What is HBOT?</title>
+      <link>https://bee-with-you.github.io/posts/what-is-hbot/</link>
+      <pubDate>Sun, 15 Feb 2026 05:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/posts/what-is-hbot/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bee-with-you.github.io/posts/what-is-hbot/feature.png" />
     </item>
+    
+    <item>
+      <title>What is hypospadias?</title>
+      <link>https://bee-with-you.github.io/posts/what-is-hypospadias/</link>
+      <pubDate>Wed, 15 Oct 2025 05:40:19 -0700</pubDate>
+      
+      <guid>https://bee-with-you.github.io/posts/what-is-hypospadias/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bee-with-you.github.io/posts/what-is-hypospadias/feature.png" />
+    </item>
+    
   </channel>
 </rss>

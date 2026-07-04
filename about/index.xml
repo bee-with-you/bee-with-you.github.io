@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Bee With You</title>
-    <link>https://bee-with-you.github.io/about/</link>
+    <link>http://localhost:1313/about/</link>
     <description>Recent content in About on Bee With You</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://bee-with-you.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Bee</copyright>
+    <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>
