@@ -125,8 +125,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.79bb4f0b3667ff0a172ad60fe03a10759df485c571bdc45dfeb03afe71718acd804b46287c6214a60a961549ec92e42f9884a37bd73bcdc475b87cec840ef9af.css"
-    integrity="sha512-ebtPCzZn/woXKtYP4DoQdZ30hcVxvcRd/rA6/nFxis2AS0YofGIUpgqWFUnskuQvmISje9c7zcR1uHzshA75rw==">
+    href="/css/main.bundle.min.f8910b9db07fea2c132568083ff90ed4b421c8c10bf65f1a647378b2d028740bd356c07057498ed153c96c30ed4cf5afe427c2e054dce460772b423fc1375eb5.css"
+    integrity="sha512-&#43;JELnbB/6iwTJWgIP/kO1LQhyMEL9l8aZHN4stAodAvTVsBwV0mO0VPJbDDtTPWv5CfC4FTc5GB3K0I/wTdetQ==">
 
   
   
@@ -3012,6 +3012,19 @@ Journal of Pediatric Urology. 2022.<br>
         </span>
         <span class="flex flex-col items-end">
           
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/when-we-first-heard-hypospadias/">
+              <span class="leading-6">
+                When We First Heard "Hypospadias"&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-06-01T10:00:00-07:00">June 1, 2026</time>
+              </span>
+            
+          
         </span>
       </div>
     </div>
@@ -3118,6 +3131,32 @@ Journal of Pediatric Urology. 2022.<br>
     </script>
   
   
+  
+    <script>
+  (function () {
+    var imgs = document.querySelectorAll(".blur-until-hover");
+    imgs.forEach(function (img) {
+      img.setAttribute("tabindex", "0");
+      img.setAttribute("role", "button");
+      img.setAttribute("aria-pressed", "false");
+      if (!img.getAttribute("aria-label")) {
+        img.setAttribute("aria-label", (img.getAttribute("alt") || "Sensitive image") + " — activate to reveal");
+      }
+      function toggle() {
+        var revealed = img.classList.toggle("is-revealed");
+        img.setAttribute("aria-pressed", revealed ? "true" : "false");
+      }
+      img.addEventListener("click", toggle);
+      img.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    });
+  })();
+</script>
+
   
 </footer>
 <div
