@@ -293,7 +293,7 @@
     
     
     "mainEntityOfPage": "https://bee-with-you.github.io/share/",
-    "wordCount": "158"
+    "wordCount": "208"
   }]
   </script>
 
@@ -1094,6 +1094,7 @@
         <div class="article-content max-w-prose mb-20">
           <p>If you have walked this path, your words could steady another family who is just beginning. Share your story here, or send feedback, a correction, or simply say hello.</p>
 <p>Your message comes to me privately and stays private unless you check the box to let me share it. You do not need to give your name or email, and please leave out anything that could identify your child unless you would like a reply.</p>
+<p>Bee With You is a free resource created by a family, for families. Anything you choose to share is used only to support other families through this website. It will never be sold, shared with third parties, used for advertising, or used for any purpose outside of Bee With You.</p>
 
 
 <form id="feedback-form" action="https://api.web3forms.com/submit" method="POST" class="not-prose flex flex-col gap-4 max-w-prose">
@@ -1135,7 +1136,7 @@
     Send
   </button>
 
-  <p id="feedback-status" class="text-sm" role="status" aria-live="polite"></p>
+  <div id="feedback-status" role="status" aria-live="polite" tabindex="-1" style="display:none;"></div>
 </form>
 
 <p class="mt-4 text-sm text-neutral-500 dark:text-neutral-400">
@@ -1181,10 +1182,23 @@
 
   var errorText = "Sorry, something went wrong, so your text has been kept in this box. Please try again, or email beewithyoutoday@gmail.com.";
 
+  
+  
+  function setStatus(text, type) {
+    if (!status) return;
+    status.textContent = text;
+    var base = "margin-top:14px;padding:14px 18px;border-radius:12px;font-size:15px;font-weight:600;line-height:1.5;border:1px solid;";
+    var skin = type === "success" ? "background:#EDF1E4;border-color:#B9CDAF;color:#2A3323;"
+             : type === "error"   ? "background:#FBEAEA;border-color:#E4A9A9;color:#7A2E2E;"
+             :                      "background:#F5EFE0;border-color:#E7DCC6;color:#6B6353;";
+    status.setAttribute("style", base + skin);
+    try { status.scrollIntoView({ behavior: "smooth", block: "center" }); } catch (e) {}
+    if (type !== "info") { try { status.focus({ preventScroll: true }); } catch (e) {} }
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    status.textContent = "Sending…";
-    status.className = "text-sm text-neutral-500";
+    setStatus("Sending…", "info");
     fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
       .then(function (r) { return r.json(); })
       .then(function (data) {
@@ -1192,16 +1206,13 @@
           try { localStorage.removeItem(KEY); } catch (e) {}
           form.reset();
           updateCount();
-          status.textContent = "Thank you for sharing. Your message reached me privately. If you gave permission, it may help another family one day.";
-          status.className = "text-sm text-primary-600 dark:text-primary-400";
+          setStatus("Thank you for sharing. Your message reached me privately, and if you gave permission, it may help another family one day.", "success");
         } else {
-          status.textContent = errorText;
-          status.className = "text-sm text-red-600";
+          setStatus(errorText, "error");
         }
       })
       .catch(function () {
-        status.textContent = errorText;
-        status.className = "text-sm text-red-600";
+        setStatus(errorText, "error");
       });
   });
 })();
